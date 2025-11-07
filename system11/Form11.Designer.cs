@@ -63,6 +63,8 @@
             button8 = new Button();
             button9 = new Button();
             button10 = new Button();
+            label11 = new Label();
+            label9 = new Label();
             panel5.SuspendLayout();
             panel4.SuspendLayout();
             panel3.SuspendLayout();
@@ -79,7 +81,7 @@
             panel5.Controls.Add(richTextBox5);
             panel5.Controls.Add(label5);
             panel5.Controls.Add(button5);
-            panel5.Location = new Point(430, 255);
+            panel5.Location = new Point(385, 258);
             panel5.Name = "panel5";
             panel5.Size = new Size(213, 202);
             panel5.TabIndex = 14;
@@ -110,7 +112,7 @@
             // button5
             // 
             button5.BackColor = Color.SaddleBrown;
-            button5.Image = Properties.Resources.javachip4;
+            button5.Image = Properties.Resources.hdc;
             button5.Location = new Point(18, 3);
             button5.Name = "button5";
             button5.Size = new Size(177, 107);
@@ -123,7 +125,7 @@
             panel4.Controls.Add(richTextBox4);
             panel4.Controls.Add(label4);
             panel4.Controls.Add(button4);
-            panel4.Location = new Point(124, 255);
+            panel4.Location = new Point(149, 258);
             panel4.Name = "panel4";
             panel4.Size = new Size(213, 202);
             panel4.TabIndex = 17;
@@ -145,16 +147,16 @@
             label4.BackColor = Color.SaddleBrown;
             label4.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(73, 113);
+            label4.Location = new Point(60, 110);
             label4.Name = "label4";
-            label4.Size = new Size(63, 20);
+            label4.Size = new Size(94, 20);
             label4.TabIndex = 5;
-            label4.Text = "Mocha";
+            label4.Text = "Tuna Pesto";
             // 
             // button4
             // 
             button4.BackColor = Color.SaddleBrown;
-            button4.Image = Properties.Resources.mocha3;
+            button4.Image = Properties.Resources.tuna;
             button4.Location = new Point(17, 3);
             button4.Name = "button4";
             button4.Size = new Size(177, 107);
@@ -167,7 +169,7 @@
             panel3.Controls.Add(richTextBox3);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(button3);
-            panel3.Location = new Point(430, 25);
+            panel3.Location = new Point(385, 28);
             panel3.Name = "panel3";
             panel3.Size = new Size(213, 202);
             panel3.TabIndex = 15;
@@ -198,7 +200,7 @@
             // button3
             // 
             button3.BackColor = Color.SaddleBrown;
-            button3.Image = Properties.Resources.hazel;
+            button3.Image = Properties.Resources.oglio;
             button3.Location = new Point(18, 3);
             button3.Name = "button3";
             button3.Size = new Size(177, 107);
@@ -211,7 +213,7 @@
             panel2.Controls.Add(richTextBox2);
             panel2.Controls.Add(label2);
             panel2.Controls.Add(button2);
-            panel2.Location = new Point(124, 28);
+            panel2.Location = new Point(149, 31);
             panel2.Name = "panel2";
             panel2.Size = new Size(213, 202);
             panel2.TabIndex = 16;
@@ -233,16 +235,16 @@
             label2.BackColor = Color.SaddleBrown;
             label2.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(73, 113);
+            label2.Location = new Point(60, 110);
             label2.Name = "label2";
-            label2.Size = new Size(68, 20);
+            label2.Size = new Size(97, 20);
             label2.TabIndex = 3;
-            label2.Text = "Matcha";
+            label2.Text = "Baked Mac";
             // 
             // button2
             // 
             button2.BackColor = Color.SaddleBrown;
-            button2.Image = Properties.Resources.frapmat3;
+            button2.Image = Properties.Resources.download;
             button2.Location = new Point(17, 3);
             button2.Name = "button2";
             button2.Size = new Size(177, 107);
@@ -255,7 +257,7 @@
             panel1.Controls.Add(richTextBox1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(button1);
-            panel1.Location = new Point(974, 255);
+            panel1.Location = new Point(949, 258);
             panel1.Name = "panel1";
             panel1.Size = new Size(213, 202);
             panel1.TabIndex = 18;
@@ -277,16 +279,16 @@
             label1.BackColor = Color.SaddleBrown;
             label1.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(62, 113);
+            label1.Location = new Point(82, 110);
             label1.Name = "label1";
-            label1.Size = new Size(88, 20);
+            label1.Size = new Size(59, 20);
             label1.TabIndex = 6;
-            label1.Text = "Java Chip";
+            label1.Text = "Waffle";
             // 
             // button1
             // 
             button1.BackColor = Color.SaddleBrown;
-            button1.Image = Properties.Resources.javachip4;
+            button1.Image = Properties.Resources.waffle5;
             button1.Location = new Point(18, 3);
             button1.Name = "button1";
             button1.Size = new Size(177, 107);
@@ -299,7 +301,7 @@
             panel6.Controls.Add(richTextBox6);
             panel6.Controls.Add(label6);
             panel6.Controls.Add(button6);
-            panel6.Location = new Point(668, 255);
+            panel6.Location = new Point(713, 255);
             panel6.Name = "panel6";
             panel6.Size = new Size(213, 202);
             panel6.TabIndex = 21;
@@ -321,16 +323,16 @@
             label6.BackColor = Color.SaddleBrown;
             label6.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(73, 113);
+            label6.Location = new Point(38, 113);
             label6.Name = "label6";
-            label6.Size = new Size(63, 20);
+            label6.Size = new Size(147, 20);
             label6.TabIndex = 5;
-            label6.Text = "Mocha";
+            label6.Text = "Chocolate Muffin";
             // 
             // button6
             // 
             button6.BackColor = Color.SaddleBrown;
-            button6.Image = Properties.Resources.mocha3;
+            button6.Image = Properties.Resources.muffin2;
             button6.Location = new Point(17, 3);
             button6.Name = "button6";
             button6.Size = new Size(177, 107);
@@ -343,7 +345,7 @@
             panel7.Controls.Add(richTextBox7);
             panel7.Controls.Add(label7);
             panel7.Controls.Add(button7);
-            panel7.Location = new Point(974, 25);
+            panel7.Location = new Point(949, 28);
             panel7.Name = "panel7";
             panel7.Size = new Size(213, 202);
             panel7.TabIndex = 19;
@@ -365,16 +367,16 @@
             label7.BackColor = Color.SaddleBrown;
             label7.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(71, 113);
+            label7.Location = new Point(48, 113);
             label7.Name = "label7";
-            label7.Size = new Size(79, 20);
+            label7.Size = new Size(129, 20);
             label7.TabIndex = 4;
-            label7.Text = "Hazelnut";
+            label7.Text = "Cinnamon Roll";
             // 
             // button7
             // 
             button7.BackColor = Color.SaddleBrown;
-            button7.Image = Properties.Resources.hazel;
+            button7.Image = Properties.Resources.cinna;
             button7.Location = new Point(18, 3);
             button7.Name = "button7";
             button7.Size = new Size(177, 107);
@@ -387,7 +389,7 @@
             panel8.Controls.Add(richTextBox8);
             panel8.Controls.Add(label8);
             panel8.Controls.Add(button8);
-            panel8.Location = new Point(668, 28);
+            panel8.Location = new Point(713, 28);
             panel8.Name = "panel8";
             panel8.Size = new Size(213, 202);
             panel8.TabIndex = 20;
@@ -409,16 +411,16 @@
             label8.BackColor = Color.SaddleBrown;
             label8.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.White;
-            label8.Location = new Point(73, 113);
+            label8.Location = new Point(67, 113);
             label8.Name = "label8";
-            label8.Size = new Size(68, 20);
+            label8.Size = new Size(80, 20);
             label8.TabIndex = 3;
-            label8.Text = "Matcha";
+            label8.Text = "Brownies";
             // 
             // button8
             // 
             button8.BackColor = Color.SaddleBrown;
-            button8.Image = Properties.Resources.frapmat3;
+            button8.Image = Properties.Resources.brownies2;
             button8.Location = new Point(17, 3);
             button8.Name = "button8";
             button8.Size = new Size(177, 107);
@@ -446,6 +448,30 @@
             button10.TabIndex = 23;
             button10.UseVisualStyleBackColor = false;
             // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Times New Roman", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.White;
+            label11.Location = new Point(473, 488);
+            label11.Name = "label11";
+            label11.Size = new Size(122, 38);
+            label11.TabIndex = 24;
+            label11.Text = "PASTA";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Times New Roman", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.SaddleBrown;
+            label9.Location = new Point(716, 488);
+            label9.Name = "label9";
+            label9.Size = new Size(150, 38);
+            label9.TabIndex = 25;
+            label9.Text = "PASTRY";
+            // 
             // Form11
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -453,6 +479,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1268, 553);
+            Controls.Add(label9);
+            Controls.Add(label11);
             Controls.Add(button10);
             Controls.Add(button9);
             Controls.Add(panel1);
@@ -483,6 +511,7 @@
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -521,5 +550,7 @@
         private Button button8;
         private Button button9;
         private Button button10;
+        private Label label11;
+        private Label label9;
     }
 }

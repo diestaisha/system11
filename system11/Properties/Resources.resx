@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="waffle4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waffle4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="passion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\passion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="caramel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\caramel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="n9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\n9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tuna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tuna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cappu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cappu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,23 +142,23 @@
   <data name="n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\n1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\n4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bake mac" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bake mac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whiteee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cafe66" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cafe66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="n8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\n8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="oglio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oglio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\n2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="spanish1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spanish1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lemon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lemon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="waffle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waffle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="choco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\choco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +166,8 @@
   <data name="mocha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mocha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="waffle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\waffle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="n8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mocha2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mocha2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -177,6 +180,9 @@
   </data>
   <data name="spanish5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spanish5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muffin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muffin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2c5a9013-9ba5-4d0e-a980-b18556b2e659" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2c5a9013-9ba5-4d0e-a980-b18556b2e659.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,9 +199,6 @@
   <data name="straw3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\straw3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="spanish2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spanish2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="javachip4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\javachip4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,20 +208,20 @@
   <data name="brownies" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\brownies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="spanish1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spanish1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="salted1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salted1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="muffin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muffin1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="salted2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\salted2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bake mac3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bake mac3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cappucino7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cappucino7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hdc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hdc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cappucino2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cappucino2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,11 +235,11 @@
   <data name="spanish3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spanish3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="whiteee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\whiteee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="green1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lemon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lemon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="n9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mocha3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mocha3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,8 +253,20 @@
   <data name="lemon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lemon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="frapmat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frapmat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cinna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cinna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brownies1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brownies1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="passion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\passion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waffle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waffle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="waffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\waffle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,14 +277,20 @@
   <data name="straw1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\straw1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\americano.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="passion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\passion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="taro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\taro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\americano.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="matt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\matt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cinnamon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cinnamon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bake mac2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bake mac2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cappucino6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cappucino6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,26 +301,29 @@
   <data name="matt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\matt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="matchaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\matchaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="salted2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salted2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="milkmat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\milkmat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mocha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="spanish2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spanish2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="javachip2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\javachip2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="matt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\matt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hazel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hazel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="straw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\straw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frapmat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frapmat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cookie2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cookie2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,8 +334,11 @@
   <data name="cookie1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cookie1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="green1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\green1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bake mac4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bake mac4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lemon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -325,14 +352,20 @@
   <data name="cappucino4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cappucino4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="brownies1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\brownies1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="taro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="salted3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salted3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lemon4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lemon4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brownies2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brownies2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="matchaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\matchaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cappucino5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cappucino5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,14 +385,17 @@
   <data name="bake mac1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bake mac1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hazel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hazel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="waffle3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waffle3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spanish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spanish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="redvel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\redvel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mocha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="javachip3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\javachip3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -385,14 +421,17 @@
   <data name="frapmat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frapmat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cinnamon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cinnamon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lemon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cinnamon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cinnamon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lemon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="catamel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\catamel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -400,7 +439,7 @@
   <data name="straw2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\straw2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="waffle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\waffle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="waffle5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waffle5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
