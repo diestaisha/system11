@@ -82,6 +82,7 @@
             // listBox1
             // 
             listBox1.BackColor = Color.SaddleBrown;
+            listBox1.ForeColor = Color.White;
             listBox1.FormattingEnabled = true;
             listBox1.Items.AddRange(new object[] { " " });
             listBox1.Location = new Point(883, 224);
@@ -181,7 +182,7 @@
             button5.Name = "button5";
             button5.Size = new Size(140, 62);
             button5.TabIndex = 14;
-            button5.Text = "Proceed";
+            button5.Text = "Next";
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
@@ -193,9 +194,9 @@
             label3.ForeColor = Color.SaddleBrown;
             label3.Location = new Point(188, 264);
             label3.Name = "label3";
-            label3.Size = new Size(237, 23);
+            label3.Size = new Size(241, 23);
             label3.TabIndex = 15;
-            label3.Text = "Types of Bread (Optional):";
+            label3.Text = "Types of Pastry (Optional):";
             // 
             // label5
             // 
@@ -400,9 +401,10 @@
             Controls.Add(listBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form3";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form3";
+            Text = "ORDER FORM3";
             Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();

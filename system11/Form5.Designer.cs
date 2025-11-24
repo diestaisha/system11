@@ -76,7 +76,7 @@
             richTextBox2.BackColor = Color.SaddleBrown;
             richTextBox2.Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox2.ForeColor = Color.White;
-            richTextBox2.Location = new Point(3, 139);
+            richTextBox2.Location = new Point(3, 142);
             richTextBox2.Name = "richTextBox2";
             richTextBox2.Size = new Size(207, 60);
             richTextBox2.TabIndex = 10;
@@ -121,7 +121,7 @@
             richTextBox3.BackColor = Color.SaddleBrown;
             richTextBox3.Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox3.ForeColor = Color.White;
-            richTextBox3.Location = new Point(3, 139);
+            richTextBox3.Location = new Point(3, 142);
             richTextBox3.Name = "richTextBox3";
             richTextBox3.Size = new Size(207, 60);
             richTextBox3.TabIndex = 11;
@@ -166,7 +166,7 @@
             richTextBox4.BackColor = Color.SaddleBrown;
             richTextBox4.Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox4.ForeColor = Color.White;
-            richTextBox4.Location = new Point(3, 139);
+            richTextBox4.Location = new Point(3, 142);
             richTextBox4.Name = "richTextBox4";
             richTextBox4.Size = new Size(207, 60);
             richTextBox4.TabIndex = 10;
@@ -211,7 +211,7 @@
             richTextBox5.BackColor = Color.SaddleBrown;
             richTextBox5.Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox5.ForeColor = Color.White;
-            richTextBox5.Location = new Point(3, 139);
+            richTextBox5.Location = new Point(3, 142);
             richTextBox5.Name = "richTextBox5";
             richTextBox5.Size = new Size(207, 60);
             richTextBox5.TabIndex = 11;
@@ -314,7 +314,7 @@
             richTextBox1.BackColor = Color.SaddleBrown;
             richTextBox1.Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.ForeColor = Color.White;
-            richTextBox1.Location = new Point(3, 139);
+            richTextBox1.Location = new Point(3, 142);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(207, 60);
             richTextBox1.TabIndex = 9;
@@ -349,9 +349,10 @@
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form5";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form5";
+            Text = "MENU1";
             Load += Form5_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

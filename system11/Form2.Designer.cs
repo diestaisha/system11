@@ -99,6 +99,7 @@
             // textBox2
             // 
             textBox2.BackColor = Color.SaddleBrown;
+            textBox2.ForeColor = Color.White;
             textBox2.Location = new Point(328, 451);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(136, 27);
@@ -110,7 +111,7 @@
             button8.BackColor = Color.SaddleBrown;
             button8.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button8.ForeColor = Color.White;
-            button8.Location = new Point(483, 445);
+            button8.Location = new Point(233, 443);
             button8.Name = "button8";
             button8.Size = new Size(74, 39);
             button8.TabIndex = 23;
@@ -121,9 +122,9 @@
             // button7
             // 
             button7.BackColor = Color.SaddleBrown;
-            button7.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button7.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button7.ForeColor = Color.White;
-            button7.Location = new Point(237, 445);
+            button7.Location = new Point(483, 440);
             button7.Name = "button7";
             button7.Size = new Size(74, 39);
             button7.TabIndex = 22;
@@ -214,6 +215,7 @@
             // listbox1
             // 
             listbox1.BackColor = Color.SaddleBrown;
+            listbox1.ForeColor = Color.White;
             listbox1.FormattingEnabled = true;
             listbox1.Items.AddRange(new object[] { " " });
             listbox1.Location = new Point(763, 93);
@@ -231,7 +233,7 @@
             button5.Name = "button5";
             button5.Size = new Size(140, 62);
             button5.TabIndex = 13;
-            button5.Text = "Proceed";
+            button5.Text = "Next";
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
@@ -345,14 +347,17 @@
             // textBox1
             // 
             textBox1.BackColor = Color.SaddleBrown;
+            textBox1.ForeColor = Color.White;
             textBox1.Location = new Point(237, 247);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(149, 27);
             textBox1.TabIndex = 4;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // comboBox4
             // 
             comboBox4.BackColor = Color.SaddleBrown;
+            comboBox4.ForeColor = Color.White;
             comboBox4.FormattingEnabled = true;
             comboBox4.Location = new Point(237, 295);
             comboBox4.Name = "comboBox4";
@@ -363,6 +368,7 @@
             // comboBox3
             // 
             comboBox3.BackColor = Color.SaddleBrown;
+            comboBox3.ForeColor = Color.White;
             comboBox3.FormattingEnabled = true;
             comboBox3.Location = new Point(237, 201);
             comboBox3.Name = "comboBox3";
@@ -373,6 +379,7 @@
             // comboBox2
             // 
             comboBox2.BackColor = Color.SaddleBrown;
+            comboBox2.ForeColor = Color.White;
             comboBox2.FormattingEnabled = true;
             comboBox2.Location = new Point(237, 150);
             comboBox2.Name = "comboBox2";
@@ -383,6 +390,7 @@
             // comboBox1
             // 
             comboBox1.BackColor = Color.SaddleBrown;
+            comboBox1.ForeColor = Color.White;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(237, 102);
             comboBox1.Name = "comboBox1";
@@ -398,9 +406,10 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1267, 600);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form2";
+            Text = "ORDER FORM1";
             Load += Form2_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

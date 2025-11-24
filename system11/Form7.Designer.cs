@@ -70,6 +70,7 @@
             button10 = new Button();
             button11 = new Button();
             label11 = new Label();
+            button12 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -98,7 +99,7 @@
             richTextBox1.BackColor = Color.SaddleBrown;
             richTextBox1.Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.ForeColor = Color.White;
-            richTextBox1.Location = new Point(3, 139);
+            richTextBox1.Location = new Point(3, 142);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(207, 60);
             richTextBox1.TabIndex = 11;
@@ -553,11 +554,22 @@
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Times New Roman", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(491, 490);
+            label11.Location = new Point(440, 491);
             label11.Name = "label11";
             label11.Size = new Size(423, 38);
             label11.TabIndex = 11;
             label11.Text = "MILK TEA / FRUIT SODA";
+            // 
+            // button12
+            // 
+            button12.BackColor = Color.SaddleBrown;
+            button12.Image = Properties.Resources.n8;
+            button12.Location = new Point(906, 465);
+            button12.Name = "button12";
+            button12.Size = new Size(121, 78);
+            button12.TabIndex = 24;
+            button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // Form7
             // 
@@ -566,6 +578,7 @@
             BackgroundImage = Properties.Resources.cafe66;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1267, 553);
+            Controls.Add(button12);
             Controls.Add(label11);
             Controls.Add(panel1);
             Controls.Add(button11);
@@ -578,9 +591,10 @@
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form7";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form7";
+            Text = "MENU4";
             Load += Form7_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -650,5 +664,6 @@
         private RichTextBox richTextBox8;
         private RichTextBox richTextBox7;
         private RichTextBox richTextBox6;
+        private Button button12;
     }
 }

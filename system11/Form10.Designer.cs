@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
             panel1 = new Panel();
+            pictureBox4 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
@@ -41,11 +45,19 @@
             textBox2 = new TextBox();
             textBox1 = new TextBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(pictureBox4);
+            panel1.Controls.Add(pictureBox3);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
@@ -58,8 +70,44 @@
             panel1.Controls.Add(textBox1);
             panel1.Location = new Point(-7, -16);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1287, 605);
+            panel1.Size = new Size(1284, 583);
             panel1.TabIndex = 0;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = Properties.Resources.lockk1;
+            pictureBox4.Location = new Point(196, 429);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(35, 27);
+            pictureBox4.TabIndex = 28;
+            pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.idd1;
+            pictureBox3.Location = new Point(196, 396);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(35, 27);
+            pictureBox3.TabIndex = 27;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.namee2;
+            pictureBox2.Location = new Point(196, 363);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(35, 27);
+            pictureBox2.TabIndex = 26;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.namee1;
+            pictureBox1.Location = new Point(196, 330);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(35, 27);
+            pictureBox1.TabIndex = 25;
+            pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -182,11 +230,17 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1267, 553);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form10";
-            Text = "Form10";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "LOG-IN";
             Load += Form10_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -203,5 +257,9 @@
         private TextBox textBox3;
         private TextBox textBox2;
         private TextBox textBox1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
     }
 }

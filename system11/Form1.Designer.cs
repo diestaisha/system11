@@ -118,11 +118,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1267, 600);
+            ClientSize = new Size(1267, 553);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "HOME PAGE";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

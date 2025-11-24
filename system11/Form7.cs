@@ -131,6 +131,10 @@ namespace system11
             this.Close();
         }
 
-     
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Form11 pa = new Form11();
+            pa.Show();
+        }
     }
 }

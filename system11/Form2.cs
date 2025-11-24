@@ -26,7 +26,6 @@ namespace system11
         string[] tea = { "Matcha", "Okinawa", "Red Velvet", "Cookies and Cream", "Taro" };
         public Form2()
 
-
         {
             InitializeComponent();
             //for Types of drink
@@ -37,14 +36,14 @@ namespace system11
             comboBox1.Items.Add("Milk Tea");
 
             // choices sa ice/hot coffee
-            comboBox3.Items.Add("Short: 12oz ₱49");
-            comboBox3.Items.Add("Medio: 16oz ₱59");
-            comboBox3.Items.Add("Grande: 20oz ₱69");
+            comboBox4.Items.Add("Short: 12oz ₱49");
+            comboBox4.Items.Add("Medio: 16oz ₱59");
+            comboBox4.Items.Add("Grande: 20oz ₱69");
 
             //choices sa milk tea and Fruits soda
-            comboBox3.Items.Add("Short: 12oz ₱29");
-            comboBox3.Items.Add("Medio: 16oz ₱39");
-            comboBox3.Items.Add("Grande: 20oz ₱49");
+            comboBox4.Items.Add("Short: 12oz ₱29");
+            comboBox4.Items.Add("Medio: 16oz ₱39");
+            comboBox4.Items.Add("Grande: 20oz ₱49");
 
             //adds on
             comboBox5.Items.Add("Nata ₱15");
@@ -55,8 +54,6 @@ namespace system11
             comboBox6.Items.Add("Popping Boba ₱15");
 
         }
-
-
 
         private void Form2_Load(object sender, EventArgs e)
         {
@@ -105,9 +102,6 @@ namespace system11
                 comboBox4.Items.Add("Grande: 20oz ₱49.00");
 
 
-
-
-
                 //choices sa  Milk Tea
                 string[] tea = { "Matcha", "Okinawa", "Red Velvet", "Cookies and Cream", "Taro" };
                 for (int i = 0; i < tea.Length; i++)
@@ -125,10 +119,6 @@ namespace system11
                 comboBox6.Items.Add("Nata ₱15");
                 comboBox6.Items.Add("Pearl ₱15");
                 comboBox6.Items.Add("Popping Boba ₱15");
-
-
-
-
 
             }
 
@@ -174,9 +164,9 @@ namespace system11
 
 
                 // choices sa lahat ng size
-                comboBox3.Items.Add("Short: 12oz ₱39.00");
-                comboBox3.Items.Add("Medio: 16oz ₱49.00");
-                comboBox3.Items.Add("Grande: 20oz ₱59.00");
+                comboBox4.Items.Add("Short: 12oz ₱39.00");
+                comboBox4.Items.Add("Medio: 16oz ₱49.00");
+                comboBox4.Items.Add("Grande: 20oz ₱59.00");
 
 
 
@@ -194,9 +184,9 @@ namespace system11
 
 
                 // choices sa lahat ng size
-                comboBox3.Items.Add("Short: 12oz ₱39.00");
-                comboBox3.Items.Add("Medio: 16oz ₱49.00");
-                comboBox3.Items.Add("Grande: 20oz ₱59.00");
+                comboBox4.Items.Add("Short: 12oz ₱39.00");
+                comboBox4.Items.Add("Medio: 16oz ₱49.00");
+                comboBox4.Items.Add("Grande: 20oz ₱59.00");
 
                 //choices sa Ice Coffee
                 string[] ice = { "Matcha", "Spanish latte", "Cappucino", "Caramel Macchiatto", "Salted Caramel" };
@@ -209,15 +199,10 @@ namespace system11
             if (comboBox1.Text.Equals("Frappe"))
             {
 
-
-
                 // choices sa lahat ng size
-                comboBox3.Items.Add("Short: 12oz ₱49.00");
-                comboBox3.Items.Add("Medio: 16oz ₱59.00");
-                comboBox3.Items.Add("Grande: 20oz ₱69.00");
-
-
-
+                comboBox4.Items.Add("Short: 12oz ₱49.00");
+                comboBox4.Items.Add("Medio: 16oz ₱59.00");
+                comboBox4.Items.Add("Grande: 20oz ₱69.00");
 
 
                 //choices sa Frappe
@@ -227,16 +212,8 @@ namespace system11
                     comboBox2.Items.Add(f[j]);
                 }
 
-
-
-
-
             }
         }
-
-
-
-
 
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -246,14 +223,14 @@ namespace system11
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            textBox1.Enabled = true;
+            textBox1.Text = (" ");
+            button1.Enabled = true;
         }
 
         private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
         {
-            textBox1.Enabled = true;
-            textBox1.Text = (" ");
-            button1.Enabled = true;
+           
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -272,8 +249,8 @@ namespace system11
             {
                 // Add the number with a % sign to the ComboBox
                 string newItem = input + "%";
-                comboBox4.Items.Add(newItem);
-                comboBox4.SelectedItem = newItem;
+                comboBox3.Items.Add(newItem);
+                comboBox3.SelectedItem = newItem;
 
                 // Clear the textbox
                 textBox1.Clear();
@@ -286,13 +263,6 @@ namespace system11
             }
         }
 
-        /*int input = Convert.ToInt32(textBox1.Text);
-
-        comboBox4.Items.Add(input + "%");
-        comboBox4.SelectedItem = input;
-        textBox1.Clear();*/
-
-
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -303,7 +273,7 @@ namespace system11
         {
             if (comboBox1.SelectedItem == null ||
        comboBox2.SelectedItem == null ||
-       comboBox3.SelectedItem == null)
+       comboBox4.SelectedItem == null)
             {
                 MessageBox.Show("Please select all required options (Drink, Flavor, and Size).");
                 return;
@@ -313,8 +283,8 @@ namespace system11
             // Get all selected values
             string drinkType = comboBox1.SelectedItem.ToString();
             string flavor = comboBox2.SelectedItem.ToString();
-            string size = comboBox3.SelectedItem.ToString();
-            string sugar = comboBox4.SelectedItem != null ? comboBox4.SelectedItem.ToString() : " " + "No Sugar Selected";
+            string size = comboBox4.SelectedItem.ToString();
+            string sugar = comboBox3.SelectedItem != null ? comboBox4.SelectedItem.ToString() : " " + "No Sugar Selected";
             string addon = comboBox5.SelectedItem != null ? comboBox5.SelectedItem.ToString() : " " + "No Add-ons";
             string addon1 = comboBox6.SelectedItem != null ? comboBox5.SelectedItem.ToString() : " " + "No Add-ons";
 
@@ -386,11 +356,6 @@ namespace system11
         {
 
         }
-
-        
-            
-
-
         private void comboBox5_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             if (comboBox5.Text == "Pearl ₱15 ")
@@ -419,7 +384,7 @@ namespace system11
 
             }
         }
-      
+
         private void button6_Click(object sender, EventArgs e)
         {
             int total = 0;
@@ -507,7 +472,7 @@ namespace system11
             listbox1.Items.Add("Total: ₱" + total);
 
         }
-    
+
         private void button7_Click(object sender, EventArgs e)
         {
             if (dd > 0)
@@ -528,7 +493,7 @@ namespace system11
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             textBox2.Enabled = false;
-        
+
         }
 
         private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
@@ -560,6 +525,10 @@ namespace system11
             }
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

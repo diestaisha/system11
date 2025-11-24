@@ -12,13 +12,28 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace system11
 {
     public partial class Form3 : Form
+
     {
+
         int previousTotal; //  store total from Form3 (if any)
         bool hasPreviousTotal; // if form3 had total
 
         int total, dd1, dd2, dd3;
-        private string? snack;
+        private string snack;
         private object flavor;
+
+
+        //will hold the type of PASTA,pastry and snack
+
+        public string SelectedPasta { get; set; }
+        public string SelectedPastry { get; set; }
+        public string SelectedSnack { get; set; }
+
+        public Form3()
+        {
+            InitializeComponent();
+
+        }
 
         public Form3(ListBox.ObjectCollection items, int totalForm3, bool hasTotalForm3)
         {
@@ -36,7 +51,8 @@ namespace system11
             {
                 comboBox1.Items.Add("Cinnamon Roll + ₱55");
                 comboBox1.Items.Add("Brownies + ₱35");
-                comboBox1.Items.Add("Chocolate Chips Cookies + ₱45");
+                comboBox1.Items.Add("Chocolate Chip Cookies + ₱45");
+                comboBox1.Items.Add("Waffles + ₱30");
             }
 
             if (comboBox2.Items.Count == 0)
@@ -53,7 +69,8 @@ namespace system11
                 comboBox3.Items.Add("Takoyaki");
                 comboBox3.Items.Add("Shawarma + ₱70");
                 comboBox3.Items.Add("Cheese stick + ₱20");
-                comboBox3.Items.Add("Siomai + ₱20");
+                comboBox3.Items.Add("Pork Siomai + ₱20");
+                comboBox3.Items.Add("Japanese Siomai + ₱30");
             }
         }
 
@@ -61,126 +78,57 @@ namespace system11
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            //ilalabas yung na select sa button
+            
+            comboBox2.Text = SelectedPasta;
+            comboBox1.Text = SelectedPastry;
+            comboBox3.Text = SelectedSnack;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string[] a = { "Cinnamon Roll", "Brownies", "Chocolate Chips Cookies", "Chocolate Muffin", "Waffle" };
-            for (int i = 0; i < a.Length; i++)
-            {
-                comboBox1.Items.Add(a[i]);
-            }
+           
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            comboBox2.Items.Clear();
-
-            //Pasta
-           
-            if (comboBox2.Items.Count == 0)
-            {
-                comboBox2.Items.Add("Baked Mac + ₱55 ");
-                comboBox2.Items.Add("Tuna Pesto + ₱65");
-                comboBox2.Items.Add("Aglio E Olio + ₱65");
-                comboBox2.Items.Add("Fettuccine Alfredo + ₱70");
-            }
-
-
         }
-
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
             comboBox4.Items.Clear();
+            comboBox4.Enabled = true;
 
-            if (comboBox4.Text.Equals("Fries"))
+            if (comboBox3.Text == "Fries + ₱20")
             {
-                string[] flavor = { "Barbeque", "Cheese", "Sour Cream" };
-                for (int i = 0; i < flavor.Length; i++)
-                {
-                    comboBox4.Items.Add(flavor[i]);
-                }
+                comboBox4.Items.AddRange(new string[] { "Barbeque", "Cheese", "Sour Cream" });
+            }
+            else if (comboBox3.Text == "Cheese stick + ₱20")
+            {
+                comboBox4.Items.AddRange(new string[] { "Barbeque", "Cheese", "Sour Cream" });
+            }
+            else if (comboBox3.Text == "Shawarma + ₱70")
+            {
+                comboBox4.Items.AddRange(new string[] { "Original sauce", "Hummus Sauce", "Harissa Sauce" });
+            }
+            else if (comboBox3.Text == "Takoyaki")  // <-- Added this
+            {
+                comboBox4.Items.AddRange(new string[] { "Octopus + ₱85 for (4pcs)", "Bacon + ₱75 for (4pcs)", "Cheese + ₱65 for (4pcs)" });
+            }
+            else if (comboBox3.Text == "Pork Siomai + ₱20" || comboBox3.Text == "Japanese Siomai + ₱30")
+            {
+                comboBox4.Enabled = false;  // No flavor for Siomai
             }
 
-            
-
-            if (comboBox4.Text.Equals("Cheese stick + ₱20"))
-            {
-                string[] flavor1 = { "Barbeque", "Cheese", "Sour Cream" };
-                for (int i = 0; i < flavor1.Length; i++)
-                {
-                    comboBox4.Items.Add(flavor1[i]);
-                }
-            }
-
-            if (comboBox4.Text.Equals("Shawarma + ₱70"))
-            {
-                string[] flavor1 = { "Original sauce", "Hummus Sauce", "Harissa Sauce" };
-                for (int i = 0; i < flavor1.Length; i++)
-                {
-                    comboBox4.Items.Add(flavor1[i]);
-                }
-
-            }
-          
+            comboBox4.Text = string.Empty;  // Reset flavor selection
+        
         }
+
 
         private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox4.Text.Equals("Takoyaki"))
-            {
-
-                comboBox4.Items.Add("Octo + ₱85 for (4pcs)");
-                comboBox4.Items.Add("Octo + ₱75 for (4pcs)");
-                comboBox4.Items.Add("Cheese + ₱65 for (4pcs)");
-
-            }
+          
         }
-        
-
-        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            comboBox3.Items.Clear();
-            if (comboBox4.Text.Equals("Fries"))
-            {
-                string[] flavor = { "Barbeque", "Cheese", "Sour Cream" };
-                for (int i = 0; i < flavor.Length; i++)
-                {
-                    comboBox3.Items.Add(flavor[i]);
-                }
-            }
-
-            if (comboBox4.Text.Equals("Takoyaki"))
-            {
-                string[] flavor = { " Octo", "Bacon", "Cheese" };
-                for (int i = 0; i < flavor.Length; i++)
-                {
-                    comboBox3.Items.Add(flavor[i]);
-                }
-            }
-
-            if (comboBox4.Text.Equals("cheese stick"))
-            {
-                string[] flavor1 = { "Barbeque", "Cheese", "Sour Cream" };
-                for (int i = 0; i < flavor1.Length; i++)
-                {
-                    comboBox3.Items.Add(flavor1[i]);
-                }
-            }
-
-            if (comboBox4.Text.Equals("Shawarma"))
-            {
-                string[] flavor1 = { "Original sauce", "Hummus Sauce", "Harissa Sauce" };
-                for (int i = 0; i < flavor1.Length; i++)
-                {
-                    comboBox3.Items.Add(flavor1[i]);
-                }
-                
-            }
-        }
-
         private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -193,23 +141,58 @@ namespace system11
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedItem == null && comboBox4.SelectedItem == null && comboBox4.SelectedItem == null)
+            if (comboBox1.SelectedItem == null && comboBox2.SelectedItem == null && comboBox3.SelectedItem == null && comboBox4.SelectedItem == null)
             {
                 MessageBox.Show("Please select at least one item to add.", "No Selection");
                 return;
             }
 
-            string pastry = comboBox1.SelectedItem?.ToString() ?? "";
-            string pasta = comboBox4.SelectedItem?.ToString() ?? "";
-          
+            string pastry;
+            if (comboBox1.SelectedItem != null)
+                pastry = comboBox1.SelectedItem.ToString();
+            else
+                pastry = "";
+
+            string pasta;
+            if (comboBox2.SelectedItem != null)
+                pasta = comboBox2.SelectedItem.ToString();
+            else
+                pasta = "";
+
+            string snack;
+            if (comboBox3.SelectedItem != null)
+                snack = comboBox3.SelectedItem.ToString();
+            else
+            snack = "";
+
+            string flavor;
+            if (comboBox4.SelectedItem != null)
+                flavor = comboBox4.SelectedItem.ToString();
+            else
+                flavor = "";
+
 
             // If any quantity (textbox) is 0, assume 1
-            int qtyPastry = dd1 > 0 ? dd1 : 1;
-            int qtyPasta = dd2 > 0 ? dd2 : 1;
-            int qtySnack = dd3 > 0 ? dd3 : 1;
+            int qtyPastry;
+            if (dd1 > 0)
+                qtyPastry = dd1;
+            else
+                qtyPastry = 1;
 
-            // 🔹 Add pastry items based on quantity
-            if (!string.IsNullOrWhiteSpace(pastry))
+            int qtyPasta;
+            if (dd2 > 0)
+                qtyPasta = dd2;
+            else
+                qtyPasta = 1;
+
+            int qtySnack;
+            if (dd3 > 0)
+                qtySnack = dd3;
+            else
+                qtySnack = 1;
+
+            //  Add pastry items based on quantity
+            if (!string.IsNullOrEmpty(pastry))
             {
                 for (int i = 0; i < qtyPastry; i++)
                 {
@@ -218,7 +201,7 @@ namespace system11
             }
 
             // 🔹 Add pasta items based on quantity
-            if (!string.IsNullOrWhiteSpace(pasta))
+            if (!string.IsNullOrEmpty(pasta))
             {
                 for (int i = 0; i < qtyPasta; i++)
                 {
@@ -227,7 +210,7 @@ namespace system11
             }
 
             // 🔹 Add snack items based on quantity
-            if (!string.IsNullOrWhiteSpace(snack))
+            if (!string.IsNullOrEmpty(snack))
             {
                 for (int i = 0; i < qtySnack; i++)
                 {
@@ -238,14 +221,19 @@ namespace system11
             listBox1.Items.Add("------------------------------------------------------------");
 
             // Reset selections and quantities
-            comboBox1.Text = string.Empty;
-            comboBox4.Text = string.Empty;
-           
+            // Reset selections
+            comboBox1.Text = string.Empty;  // Pastry
+            comboBox2.Text = string.Empty;  // Pasta
+            comboBox3.Text = string.Empty;  // Snack
+            comboBox4.Text = string.Empty;  // Flavor
+
 
             dd1 = 0; dd2 = 0; dd3 = 0;
             textBox1.Text = "0";
             textBox2.Text = "0";
             textBox3.Text = "0";
+
+           
         }
         
 
@@ -257,7 +245,8 @@ namespace system11
 
         private void button5_Click(object sender, EventArgs e)
         {
-            
+            Form13 pay = new Form13(listBox1.Items);
+            pay.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -347,15 +336,6 @@ namespace system11
             listBox1.Items.Add("Total: ₱" + total);
 
         }
-
-
-
-
-
-
-
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             dd1++;
